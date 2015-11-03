@@ -13,6 +13,11 @@ h1
 	font-size: 36px;
 	color: #666; 
     }
+ul li a
+{
+    background-color: #3f81a1;
+    color: #ffffff;
+}
 .content>div>img
     {
         display:none;
@@ -88,10 +93,18 @@ div.row.header
     font-family: Myriad Pro;
 }
 @media only screen and (min-width: 960px) {
-    .container
+    
+       .container
 {
-    width: 960px;
-    padding: 0px;
+    width: 1026px;
+    padding-left: 33px;
+    padding-right: 33px;
+    background-color: #ffffff;
+    
+}
+body
+{
+    background-image:url('../image/phong.jpg');
 }
 .header>div.mobile
 {
@@ -101,6 +114,27 @@ div.row.header
 {
     display: inline-block;
 }
+ul
+{
+    width: 100%;
+    background-color: #3f81a1;
+}
+ul li
+{
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+    margin: 0px;
+    
+}
+
+div.row.header
+{
+    background-image:url('../image/nen.jpg');
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0px;
+}
+      
 .content>div>img
     {
         display:block;
@@ -108,6 +142,28 @@ div.row.header
  .content>div>p>img
     {
         display:none;
+    }
+ div.row.footer
+    {
+        background-color: none;
+        background-image:url('../image/back.jpg');
+    }
+ .footer
+ {
+     padding: 0px;
+     margin: 0px;
+ }
+ .footer>div.backround-blue
+    {
+        background-image: url('../image/back.jpg');
+    }
+ .foot-end
+    {
+        margin-top: 30px;
+    }
+ .mancoll
+    {
+        margin-top:50px;
     }
 
 }
