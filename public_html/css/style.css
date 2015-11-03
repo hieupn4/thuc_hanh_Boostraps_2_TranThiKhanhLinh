@@ -1,0 +1,114 @@
+
+.btn
+{
+    border-radius: 0px;
+}
+.container
+    {
+       width: 100%;
+    }
+h1
+    {
+        font-family: Helvetica;
+	font-size: 36px;
+	color: #666; 
+    }
+.content>div>img
+    {
+        display:none;
+    }
+.content>div>p>img
+    {
+        float:left;
+        width:25%;
+        margin-right: 3%;
+        margin-bottom: 1%;
+    }
+.content>div>p
+{
+    text-align: justify;
+}
+.content-header>div>p
+{
+    text-align: justify;
+}
+.content-footer h1
+{
+    text-align: center;
+}
+.content-footer>div>div>p
+{
+    background-image: url("../image/phay.jpg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    padding-left: 60px;
+    text-align: justify;
+}
+.footer>div.foot-end
+{
+    background-color: #f1f1f1;
+    height: auto;
+    padding-top: 30px;
+}
+.footer>div>a
+{
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.footer>div
+{
+    background-color: #f1f1f1; 
+    text-align: center;
+}
+.footer>div>p
+{
+  margin-top: 10px;
+}
+div.backround-blue
+    {
+        background-color: #3f81a1;
+    }
+.header>div.desktop
+{
+    display:none;
+}
+.header>div.mobile
+{
+    background-color: #f1f1f1;
+}
+div.row.header
+{
+    background-color: #f1f1f1;
+}
+.header p,.footer p
+{
+    color: #999999;
+    font-family: Myriad Pro;
+}
+@media only screen and (min-width: 960px) {
+    .container
+{
+    width: 960px;
+    padding: 0px;
+}
+.header>div.mobile
+{
+    display:none;
+}
+.header>div.desktop
+{
+    display: inline-block;
+}
+.content>div>img
+    {
+        display:block;
+    }
+ .content>div>p>img
+    {
+        display:none;
+    }
+
+}
+
