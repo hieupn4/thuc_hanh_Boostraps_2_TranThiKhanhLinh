@@ -165,6 +165,62 @@ div.row.header
     {
         margin-top:50px;
     }
-
+    .content-header
+    { 
+     background-color:#f1f1f1;
+     margin-right: 0px;
+     margin-left: 0px;
+     padding-top: 50px;
+     padding-left: 15px;
+    }
+    .content-header
+    {height: 335px;
+    }
+ div.row.content-header>div>p
+ { 
+    text-align: left;
+    font-family: Helvetica;
+	font-size: 16px;
+	color: #666;
+        margin-top: 25px;
+ }
+ .content-header h1
+ {  
+    text-align:center;
+ }
+ .content p
+ {  
+      font-family: Helvetica;
+     font-size: 16px;
+     color: #666;
+     margin-top: 15px;
+     margin-bottom: 15px;
+     text-align: left;
+ }
+ .content h1
+ {   
+     margin-top: 0px;
+     margin-bottom:0px;
+ }
+ .content
+    {
+        position: relative;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        clear: both;
+    }
+ .content>div
+    {
+        position: static;
+    }
+ .content>div>a
+    {
+        position: absolute;
+        bottom:0;
+    }
+  .img-right img
+    {
+        float:right;
+    }
 }
 
