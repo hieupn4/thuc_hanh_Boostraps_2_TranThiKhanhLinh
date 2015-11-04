@@ -92,7 +92,24 @@ div.row.header
     color: #999999;
     font-family: Myriad Pro;
 }
-@media only screen and (min-width: 960px) {
+.content-footer>div>div>p.no-backround
+    { 
+       background-image:none;
+       color:#3f81a1;
+    }
+@media only screen and (min-width:688px)
+    {
+        ul
+        {
+            width:100%;
+            background-color:#3f81a1;
+        }
+    }
+/*@media only screen and (min-width:770px)
+    {
+       
+    }*/
+@media only screen and (min-width: 860px) {
     
        .container
 {
@@ -222,5 +239,37 @@ div.row.header
     {
         float:right;
     }
+   .content-footer>h1
+    {
+        margin-top: 120px;
+        margin-bottom: 30px;
+    }
+  .content-footer>div>div
+    {
+        padding-right: 32px;
+    }
+  .content-footer>div>div>p
+    {
+        font-family: Helvetica;
+	      font-size: 16px;
+        color: #666;
+    }
+    div.row.footer
+    {
+        margin-top: 50px;
+    }
+    .header>div>p
+    {
+        font-family: "Myriad Pro";
+	      font-size: 20px;
+	      color: #999;
+        margin-top: 25
+    }
+    .header>div.number>p
+    {
+        font-size: 36px;
+        margin-left: 50px;
+    }
+   
 }
 
