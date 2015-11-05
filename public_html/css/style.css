@@ -97,7 +97,11 @@ div.row.header
        background-image:none;
        color:#3f81a1;
     }
-@media only screen and (min-width:688px)
+    
+    
+    
+    
+@media screen and (min-width:768px)
     {
         ul
         {
@@ -105,11 +109,7 @@ div.row.header
             background-color:#3f81a1;
         }
     }
-/*@media only screen and (min-width:770px)
-    {
-       
-    }*/
-@media only screen and (min-width: 860px) {
+@media screen and (min-width: 992px) {
     
        .container
 {
